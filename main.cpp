@@ -1,3 +1,4 @@
+
 /*
  * Algoritmo de hash, herramienta para calcular valores hash de cadenas de texto.
  * Copyright (C) 2024 Harold Andres Lancheros Alvarez
