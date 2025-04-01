@@ -1,6 +1,15 @@
 /*
- * Programa que implementa el algoritmo de hash para cadenas de texto
- * Autor: Harold Andres Lancheros Alvarez - A00836416
+ * Algoritmo de hash para cadenas de texto
+ * Copyright (C) 2024 Harold Andres Lancheros Alvarez
+ * A00836416
+ *
+ * Este programa es software libre; puede redistribuirlo y/o modificarlo
+ * bajo los términos establecidos para trabajos académicos. Este programa
+ * se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA.
+ *
+ * El programa implementa un algoritmo de hash (polynomial rolling hash function)
+ * para calcular el valor hash de cadenas de texto ingresadas por el usuario.
+ *
  * Fecha: 06-03-2025
  */
 
