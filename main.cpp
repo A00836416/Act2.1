@@ -1,31 +1,21 @@
 /*
- * Harold Andres Lancheros Alvarez A00836416
+ * Algoritmo de hash, herramienta para calcular valores hash de cadenas de texto.
+ * Copyright (C) 2024 Harold Andres Lancheros Alvarez
+ * A00836416
  *
- * Instrucciones:
- * Utilizando la técnica de programación de "algoritmos avaros" y "programación dinámica",
- * escribe en equipos de máximo dos personas, en C++ un programa que resuelve el problema del cambio de monedas.
+ * Este programa es software libre; puede redistribuirlo y/o
+ * modificarlo bajo los términos de la Licencia Pública General Reducida GNU
+ * tal como está publicada por la Free Software Foundation; ya sea
+ * la versión 3 de la Licencia, o (a su elección) cualquier versión posterior.
  *
- * El programa recibe un número entero N, seguido de N valores enteros (uno en cada línea)
- * que representan las diferentes denominaciones disponibles de las monedas.
- * Seguido de esto, el programa recibe dos números enteros: P y Q,
- * (uno en cada línea) por la entrada estándar,
- * que representan P: el precio de un producto dado y Q: es el billete o moneda con el que se paga dicho producto.
+ * Este programa se distribuye con la esperanza de que sea útil,
+ * pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+ * COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Consulte la GNU
+ * Lesser General Public License para más detalles.
  *
- * La salida del programa es una lista de N valores correspondientes
- * al número de monedas de cada denominación, de mayor a menor, una en cada línea,
- * que se tienen que dar para dar el cambio por el producto pagado,
- * primero utilizando programación dinámica y luego utilizando un algoritmo avaro.
- *
- * Complejidad computacional:
- * - El algoritmo de programación dinámica tiene una complejidad de O(N * cambio), donde:
- *   - N es la cantidad de denominaciones de monedas.
- *   - cambio es la cantidad a devolver.
- * - El algoritmo avaro tiene una complejidad de O(N), ya que recorre las denominaciones una sola vez.
- *
- * Correr con:
- * g++ -std=c++17 -o main main.cpp
- * ./main
- *
+ * Debería haber recibido una copia de la Licencia Pública General Reducida GNU
+ * junto con este programa; si no es así, escriba a la Free Software Foundation,
+ * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
 #include <iostream>
