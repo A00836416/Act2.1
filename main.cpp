@@ -28,7 +28,7 @@ using namespace std;
  * @param cadena La cadena de entrada para calcular el hash
  * @return El valor hash de la cadena
  */
-long long calcularHash(string cadena)
+long long calcular_hash(string cadena)
 {
     int longitud = cadena.length();
     const int PRIMO = 31;
@@ -55,7 +55,7 @@ int main()
 
     getline(cin, entrada);
 
-    cout << calcularHash(entrada) << endl;
+    cout << calcular_hash(entrada) << endl;
 
     return 0;
 }
