@@ -25,7 +25,7 @@
 using namespace std;
 
 /**
- * Calcula el valor hash de una cadena utilizando el método polynomial rolling hash function
+ * Calcula el valor hash de una cadena utilizando el metodo polynomial rolling hash function
  * @param cadena La cadena de entrada para calcular el hash
  * @return El valor hash de la cadena
  */
