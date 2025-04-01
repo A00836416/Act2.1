@@ -1,16 +1,21 @@
 /*
- * Algoritmo de hash para cadenas de texto
+ * Algoritmo de hash para cadenas de texto, herramienta académica para cálculo de hash.
  * Copyright (C) 2024 Harold Andres Lancheros Alvarez
  * A00836416
  *
- * Este programa es software libre; puede redistribuirlo y/o modificarlo
- * bajo los términos establecidos para trabajos académicos. Este programa
- * se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA.
+ * Este algoritmo es software libre; puede redistribuirlo y/o
+ * modificarlo bajo los términos de la Licencia Pública General Reducida GNU
+ * tal como está publicada por la Free Software Foundation; ya sea
+ * la versión 3 de la Licencia, o (a su elección) cualquier versión posterior.
  *
- * El programa implementa un algoritmo de hash (polynomial rolling hash function)
- * para calcular el valor hash de cadenas de texto ingresadas por el usuario.
+ * Este algoritmo se distribuye con la esperanza de que sea útil,
+ * pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+ * COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Consulte la GNU
+ * Lesser General Public License para más detalles.
  *
- * Fecha: 06-03-2025
+ * Debería haber recibido una copia de la Licencia Pública General Reducida GNU
+ * junto con este programa; si no es así, escriba a la Free Software Foundation,
+ * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
 #include <iostream>
