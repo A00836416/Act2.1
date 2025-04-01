@@ -55,7 +55,7 @@ long long calcularHash(string cadena)
     return valorHash;
 }
 
-/**
+/*
  * Función principal que lee una cadena de texto y muestra su valor hash
  * @return 0 si el programa se ejecutó correctamente
  */
@@ -63,10 +63,8 @@ int main()
 {
     string entrada;
 
-    // Leer la cadena de entrada
     getline(cin, entrada);
 
-    // Calcular y mostrar el valor hash
     cout << calcularHash(entrada) << endl;
 
     return 0;
